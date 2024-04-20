@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 "A module that runs a scipt that start web flask"
-from flask import Flask, render_template_string
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
